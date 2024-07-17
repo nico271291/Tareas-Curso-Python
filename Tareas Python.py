@@ -1,4 +1,3 @@
-"""
 #_______________________________________________________________-
 #CLASE 16 de Julio, analizar el código y explicar que hace cada linea, luego reemplazarlo por otra condición
 #WHILE
@@ -33,7 +32,7 @@ while intentos < 3:
 
 if intentos == 3 and intento != numero_secreto:
     print("¡Lo siento! No lograste adivinar el número :(. El número correcto era:", numero_secreto)
-"""
+
 
 #  IF ELSE ELIF
 # Construir un algoritmo con lo viste en clase bajo el mismo diagrama de flujo de la imagen que está en la carpeta assets del repo
@@ -60,7 +59,10 @@ elif tu_equipo == racing:
 else:
     print("Es un buen club, por lo menos tienen mas huevos que Riber, San Lorenzo e Independiente, solo que les falta plata.")
 
-
+"""
+Hola Profe soy Nicolás Blanco, perdon que suba esta tarea, pero las otras consignas las tengo en mi pc y no puedo subir a git as cosas, 
+lo voy a desisntalar y volver a instalar para ver si las puedo subir, sino se las paso por mail como me dijo en la clase de ayer.
+"""
 
 
 
