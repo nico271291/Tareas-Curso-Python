@@ -1,0 +1,33 @@
+                                                                #### TAREA SETS Y DICCIONARIOS ####
+
+# SETS
+# Es una variable grupo:
+grupo = {"Fernando", "Federico", "Francisco", "Ricardo"}
+#Añadir a las siguientes personas: Jose, Maria, Gerardo, Fabian.
+
+grupo.update(["Jose", "Maria", "Gerardo", "Fabian"])
+print (grupo)
+
+#Eliminar a las personas: Fernando, Federico, Francisco
+grupo.remove("Francisco")
+grupo.discard("Fernando") # Acá implento Discard para no usar los 3 elementos a borrar con la misma función.
+grupo.remove("Federico")
+print (grupo)
+
+
+# DICCIONARIOS
+animalitos = {"elefante": ""}
+# Añadir al diccionario las claves perro, gato y tucan con sus valores "Tobi", "Michi" y "Diego"
+
+animalitos ['perro'] = 'Toby'
+animalitos ['gato'] = 'Michi'
+animalitos ['tucan'] = 'Diego'
+print(animalitos)
+
+# Modificar la clave elefante por delfin
+
+animalitos ['delfin'] = animalitos.pop ('elefante')
+animalitos ['delfin'] = 'Flipper' # Acá como la clave delfin estaba sin valor le agrugue uno.
+print(animalitos)
+
+# Este último punto nosé si estara bien, pero después de muchos errores y pruebas, fue de la única manera que se me occurrio modificar la clave elefante por delfin.

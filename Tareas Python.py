@@ -1,6 +1,7 @@
 #_______________________________________________________________-
 #CLASE 16 de Julio, analizar el código y explicar que hace cada linea, luego reemplazarlo por otra condición
 #WHILE
+"""
 n = 10 # Declaro la variable "n" y le asigno 10 como dato.
 while n<10: # Uso la sentencia WHILE para indicar que mientras la variable n sea menor que 10 entre al bloque de código.
     if (n%2)==0: # Uso la sentencia if, con la condición de que sí el módulo entre n dividido 2 es igual a cero, y si esta condicion es verdadera entre al bloque del código del if.
@@ -59,13 +60,10 @@ elif tu_equipo == racing:
 else:
     print("Es un buen club, por lo menos tienen mas huevos que Riber, San Lorenzo e Independiente, solo que les falta plata.")
 
-"""
+
 Hola Profe soy Nicolás Blanco, perdon que suba esta tarea, pero las otras consignas las tengo en mi pc y no puedo subir a git as cosas, 
 lo voy a desisntalar y volver a instalar para ver si las puedo subir, sino se las paso por mail como me dijo en la clase de ayer.
 """
-
-
-
 
 
 
